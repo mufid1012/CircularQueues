@@ -98,8 +98,9 @@ private:
             cout << endl;
         }
     }
+};
 
-    int main() {
+   int main() {
     Queues q;
     char ch;
 
@@ -142,6 +143,4 @@ private:
     }
     return 0;
 
-    }
-   
-};
+}
