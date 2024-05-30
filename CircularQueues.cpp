@@ -7,6 +7,18 @@ private:
     int FRONT, REAR;
     int queue_array[max];
 
+    public:
+    Queues(){
+        FRONT = -1;
+        REAR = -1;
+    }
+
+    void insert(){
+        int num;
+        cout << "Enter a Number: ";
+        cin >> num;
+        cout  << endl;
+
 
 };
 
